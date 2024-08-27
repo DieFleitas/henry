@@ -1,0 +1,25 @@
+@import "./variables.less";
+// Mixins acá
+
+.flex(@direction: row, @justify: center, @align:center) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.btn-mixin(@bgColor, @color) {
+  background-color: @bgColor;
+  color: @color;
+  display: inline-block;
+  padding: 15px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: @color;
+    color: @bgColor;
+  }
+}

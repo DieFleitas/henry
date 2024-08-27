@@ -1,0 +1,23 @@
+.container {
+    margin-top: 1vh;
+    margin-right: 1vw;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    background-color: #005f73;
+    color: #ecf8f8;
+    height: 100%;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.input {
+    height: 100%;
+    border: 1px solid #005f73;
+}

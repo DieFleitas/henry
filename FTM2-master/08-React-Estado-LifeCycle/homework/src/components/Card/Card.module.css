@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #0d1b2a;
+  height: 250px;
+  width: 400px;
+  padding: 20px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header h2 {
+  display: inline-block;
+}
+
+.header button {
+  border: none;
+  padding: 0 10px;
+  background-color: #d90429;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.paragraph {
+  display: inline-block;
+  font-size: 24px;
+}
